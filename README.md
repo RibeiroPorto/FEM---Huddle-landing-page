@@ -1,4 +1,4 @@
-<h1 align="center">:file_cabinet: </h1>
+<h1 align="center">:file_cabinet: Huddle landing page </h1>
 
 ## :memo: Descrição
 Projeto do Front-end mentor desenvolvido no curso de programação DevQuest;
@@ -11,7 +11,7 @@ Projeto do Front-end mentor desenvolvido no curso de programação DevQuest;
 ## :rocket: Rodando o projeto
 Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando para iniciar o projeto:
 ```
-git clone
+git clone https://github.com/RibeiroPorto/Huddle-landing-page.git
 ```
 
 
