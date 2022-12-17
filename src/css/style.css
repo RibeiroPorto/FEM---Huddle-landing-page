@@ -1,0 +1,126 @@
+html{
+    font-size: 62.5%;
+
+}
+body{
+    background: url('../images/bg-desktop.svg') var(--primary-background) center center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding:3rem 5rem;
+    
+}
+.header{
+
+    padding-bottom: 4rem;
+}
+.header .logo{
+    width:18rem;
+}
+.main-content{
+    width:100%;
+    display:grid;
+    grid-template-columns: 12fr 8fr;
+    
+}
+
+.main-content .product-image img{
+    width:100%;
+    height: 100%;
+}
+.main-content .product-description{
+    
+    padding: 5rem 3rem;
+    color: white;
+}
+.main-content .product-description h1{
+    font-size: 3.5rem;
+    font-family: var(--heading-font);
+    margin-bottom: 2rem;
+}
+.main-content .product-description p{
+    font-size: 1.5rem;
+    font-family: var(--body-font);
+    margin-bottom: 4rem;
+}
+.main-content .product-description a{
+    text-decoration: none;
+    background-color: white;
+    color: var(--primary-fonte-color);
+    font-family: var(--body-font);
+    font-weight: 400;
+    font-size: 1.5rem;
+    padding: 1.4rem 5rem;
+    border-radius: 5rem;
+    box-shadow: 4px 4px 10px 1px rgba(0, 0 , 0, .3);
+    transition: .3s ease-in-out;
+}
+.main-content .product-description a:hover{
+    background-color: var(--soft-background);
+    color: white;
+}
+
+.footer{
+    padding-bottom:3rem;
+}
+.footer nav ul{
+    display:flex;
+    justify-content: flex-end;
+}
+.footer nav ul li a{
+    width: 4rem;
+    height: 4rem;
+    border: 1px solid white;
+    border-radius: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 1rem;
+    color:white;
+    text-decoration: none;
+}
+
+.footer nav ul li i{
+    font-size: 2rem;
+    
+    
+}
+.footer nav ul li a:hover{
+    color: var(--soft-background);
+    border-color:var(--soft-background);
+}
+@media (max-width:768px){
+    .main-content{
+        grid-template-columns: 1fr;
+        
+        
+    }
+    .main-content .product-description{
+        text-align: center;
+    }
+    .footer nav ul{
+        display:flex;
+        justify-content: center;
+    }
+}
+@media (max-width:425px){
+    body{
+        background-image:url('../images/bg-mobile.svg')
+        
+    }
+    .header{
+        padding: 3rem 0 7rem;
+    }
+    .header .logo{
+        width:15rem;
+    }
+    .main-content .product-description h1{
+        font-size: 2rem;
+    }
+    .main-content .product-description a{
+        padding: 1rem 8rem;
+        
+    }
+    .footer{
+        margin-top: 4rem;
+    }
+}
